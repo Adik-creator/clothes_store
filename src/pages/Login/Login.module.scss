@@ -1,0 +1,25 @@
+
+.login{
+
+  .wrapper{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background: antiquewhite;
+  }
+
+  .loginHeader{
+    width: 100%;
+    height: 72px;
+    background: silver;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 90px;
+      height: 40px;
+      cursor: pointer;
+    }
+  }
+}
