@@ -26,10 +26,11 @@ export const Header: React.FC = () => {
                 </div>
 
                 <ul className={styles.headerCategories}>
-                    {data.map((each) => (
+                    {data.map((each, index) => (
                         <li
                             onMouseEnter={() => setCurrentState(each.value)}
                             onMouseLeave={close}
+                            key={index}
                         >
                             {each.label}
                             {currentState === each.value && (

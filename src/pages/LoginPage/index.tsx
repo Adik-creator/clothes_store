@@ -1,11 +1,16 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import {Login} from "../../components/Login";
 
-export const Login: React.FC = () => {
+export const LoginPage: React.FC = () => {
 
-  return <div>
-    <Link to="/singUp">Create new account</Link>
-  </div>;
+    return (
+        <div>
+            <Login/>
+            <Link to="/singUp">Create new account</Link>
+        </div>
+)
+
 };
 
 // import * as React from "react";
@@ -18,7 +23,7 @@ export const Login: React.FC = () => {
 //     example: string;
 // }
 //
-// export const Login: React.FC = () => {
+// export const LoginPage: React.FC = () => {
 //     const {
 //         register,
 //         handleSubmit,
@@ -68,13 +73,13 @@ export const Login: React.FC = () => {
 
 // import React from 'react';
 // import uniqlo from '../../assets/images/uniqlo.png'
-// import styles from './Login.module.scss'
+// import styles from './LoginPage.module.scss'
 // import {Link} from "react-router-dom";
 //
 // import {RiErrorWarningLine} from 'react-icons/ri'
 // import {IoWarningOutline} from "react-icons/io5";
 //
-// export const Login: React.FC = () => {
+// export const LoginPage: React.FC = () => {
 //     return (
 //         <div className={styles.login}>
 //             <div className={styles.loginHeader}>

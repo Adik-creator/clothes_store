@@ -78,14 +78,14 @@ export const data = [
             },
             {
                 id: 5,
-                label: 'Loungewear & Home',
-                value: 'Loungewear & Home',
+                label: 'Loungewear & HomePage',
+                value: 'Loungewear & HomePage',
                 children: [
-                    "All Loungewear & Home",
+                    "All Loungewear & HomePage",
                     "Loungewear & Pajamas",
                     "Easy & Relaxed Pants",
                     "Slippers",
-                    "Home Accessories",
+                    "HomePage Accessories",
                     "Bedding & Blankets",
                 ]
             },
@@ -214,14 +214,14 @@ export const data = [
             },
             {
                 id: 4,
-                label: 'Loungewear & Home',
-                value: 'Loungewear & Home',
+                label: 'Loungewear & HomePage',
+                value: 'Loungewear & HomePage',
                 children: [
-                    "All Loungewear & Home",
+                    "All Loungewear & HomePage",
                     "Loungewear & Pajamas",
                     "Easy & Relaxed Pants",
                     "Slippers",
-                    "Home Accessories",
+                    "HomePage Accessories",
                     "Bedding & Blankets",
                 ]
             },
@@ -334,14 +334,14 @@ export const data = [
             },
             {
                 id: 4,
-                label: 'Loungewear & Home',
-                value: 'Loungewear & Home',
+                label: 'Loungewear & HomePage',
+                value: 'Loungewear & HomePage',
                 children: [
-                    "All Loungewear & Home",
+                    "All Loungewear & HomePage",
                     "Loungewear & Pajamas",
                     "Easy & Relaxed Pants",
                     "Slippers",
-                    "Home Accessories",
+                    "HomePage Accessories",
                     "Bedding & Blankets",
                 ]
             },
